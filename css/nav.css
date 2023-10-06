@@ -1,0 +1,79 @@
+header {
+  width: 100%;
+  height: 10vh;
+  border-bottom: 1px solid grey;
+  padding-bottom: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header .logo {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 15%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 2%;
+}
+header .logo img {
+  width: auto;
+  height: 85%;
+}
+header .logo span {
+  margin-bottom: 2%;
+  margin-left: 10%;
+}
+header .searchBar {
+  margin-top: 2%;
+  height: 100%;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: relative;
+}
+header .searchBar img {
+  position: absolute;
+  width: auto;
+  height: 35%;
+  left: 2%;
+}
+header .searchBar input {
+  width: 100%;
+  height: 50%;
+  border: none;
+  background-color: #587c83;
+}
+header nav {
+  margin-top: 2%;
+  margin-right: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  gap: 5em;
+}
+header nav a {
+  text-decoration: none;
+  color: #000;
+}

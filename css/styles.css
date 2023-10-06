@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html, body {
@@ -24,16 +25,28 @@ header {
   height: 10vh;
   border-bottom: 1px solid grey;
   padding-bottom: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 header .logo {
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 15%;
-  align-items: flex-end;
-  justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   margin-left: 2%;
 }
 header .logo img {
@@ -48,9 +61,15 @@ header .searchBar {
   margin-top: 2%;
   height: 100%;
   width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   position: relative;
 }
 header .searchBar img {
@@ -68,8 +87,12 @@ header .searchBar input {
 header nav {
   margin-top: 2%;
   margin-right: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   gap: 5em;
 }
 header nav a {
@@ -77,4 +100,71 @@ header nav a {
   color: #000;
 }
 
-/*# sourceMappingURL=styles.css.map */
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 92px;
+  background-color: #587C83;
+  color: #fff;
+  font-size: 16px;
+}
+footer .text {
+  margin-left: 104px;
+}
+footer .links {
+  width: 284px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+footer .links a {
+  color: #fff;
+  text-decoration: none;
+}
+footer .icon {
+  margin-right: 104px;
+  width: 215px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+footer .icon .icon1 {
+  width: 44px;
+  height: 44px;
+  background-image: url("../img/logos/white/facebook_w.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+footer .icon .icon2 {
+  width: 44px;
+  height: 44px;
+  background-image: url("../img/logos/white/instagram_w.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+footer .icon .icon3 {
+  width: 44px;
+  height: 44px;
+  background-image: url("../img/logos/white/twitter_w.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
