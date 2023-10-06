@@ -107,6 +107,8 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -117,6 +119,7 @@ footer {
 }
 footer .text {
   margin-left: 104px;
+  margin-top: 20px;
 }
 footer .links {
   width: 284px;
@@ -153,6 +156,7 @@ footer .icon .icon1 {
   background-image: url("../img/logos/white/facebook_w.png");
   background-repeat: no-repeat;
   background-size: contain;
+  cursor: pointer;
 }
 footer .icon .icon2 {
   width: 44px;
@@ -160,6 +164,7 @@ footer .icon .icon2 {
   background-image: url("../img/logos/white/instagram_w.png");
   background-repeat: no-repeat;
   background-size: contain;
+  cursor: pointer;
 }
 footer .icon .icon3 {
   width: 44px;
@@ -167,4 +172,5 @@ footer .icon .icon3 {
   background-image: url("../img/logos/white/twitter_w.png");
   background-repeat: no-repeat;
   background-size: contain;
+  cursor: pointer;
 }
