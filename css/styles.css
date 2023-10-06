@@ -115,6 +115,7 @@ footer {
   height: 92px;
   background-color: #587C83;
   color: #fff;
+  margin: 0 auto;
   font-size: 16px;
 }
 footer .text {
@@ -172,5 +173,61 @@ footer .icon .icon3 {
   background-image: url("../img/logos/white/twitter_w.png");
   background-repeat: no-repeat;
   background-size: contain;
+  cursor: pointer;
+}
+
+.acco {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 600px;
+  margin-bottom: 191px;
+}
+.acco .login-sign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 233px;
+  height: 300px;
+  margin-bottom: 25px;
+}
+.acco .login-sign h2 {
+  font-size: 26px;
+  text-align: left;
+}
+.acco .login-sign input {
+  border: none;
+  border-bottom: 1px solid #000000;
+  width: 233px;
+  margin-top: 50px;
+}
+.acco .login-sign .log {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.acco .login-sign .log input {
+  width: 170px;
+  height: 45px;
+  border: none;
+  background-color: #587C83;
+  color: #fff;
+  border: none;
   cursor: pointer;
 }

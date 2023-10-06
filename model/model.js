@@ -12,7 +12,27 @@ const blogRoute = `
 <h1>Blog</h1>
 `;
 const accountRoute = `
-<h1>Account</h1>
+<div class="acco">
+  <div class="login-sign">
+<h2>Login Here!</h2>
+<input type="text" placeholder="Email Adress:" />
+<input type="password" placeholder="Password:" />
+ <div class="log">
+    <input type="button" value="LOGIN" id="logBtn" />
+  </div>
+  </div>
+  <div class="login-sign">
+  <p>don't have an account?</p>
+  <h2>Sign Up!</h2>
+  <input type="text" placeholder="First Name:" />
+  <input type="text" placeholder="Last Name:" />
+  <input type="text" placeholder="Email Adress:" />
+  <input type="password" placeholder="Password:" />
+  <div class="log">
+  <input type="button" value="SIGN UP" id="logBtn" />
+    </div>
+  </div>
+</div>
 `;
 const cartRoute = `
 <h1>Cart</h1>
