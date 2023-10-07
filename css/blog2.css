@@ -1,0 +1,61 @@
+.bookc {
+  margin-left: 228px;
+}
+.bookc .hero {
+  width: 1464px;
+  margin-top: 172px;
+  height: 463px;
+  background-color: rgba(88, 124, 131, 0.545);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(88, 124, 131)), to(rgba(88, 124, 131, 0.3547794118))), url("../img/book-club-hero.jpg");
+  background-image: linear-gradient(rgb(88, 124, 131) 0%, rgba(88, 124, 131, 0.3547794118) 100%), url("../img/book-club-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 105px;
+}
+.bookc .hero .callout {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: white;
+}
+.bookc .hero .callout h1 {
+  font-size: 42px;
+  margin-top: 137px;
+}
+.bookc .hero .callout p {
+  font-size: 26px;
+}
+.bookc .bookclub {
+  width: 1559px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 578px;
+}
+.bookc .bookclub .img {
+  width: 622px;
+  height: 463px;
+  background-color: blue;
+  background-image: url("../img/open-book-blog.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bookc .bookclub .info {
+  width: 898px;
+  font-size: 16px;
+}

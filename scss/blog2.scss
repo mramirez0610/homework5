@@ -1,0 +1,58 @@
+.bookc{
+    margin-left: 228px;
+   .hero{
+     
+       width: 1464px;
+       margin-top: 172px;
+       height: 463px;
+       background-color: rgba(88, 124, 131, 0.545);
+        background-image: (linear-gradient( rgba(88,124,131,1) 0%, rgba(88,124,131,0.35477941176470584) 100%)), url("../img/book-club-hero.jpg");
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       margin-bottom: 105px ;
+       
+       .callout{
+         
+         text-align: center;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+         color: white;
+               h1{
+               
+                 font-size: 42px;
+                 margin-top: 137px;
+             
+               }
+               p{
+                 
+                 font-size: 26px;
+     
+               }
+       }
+     }
+     .bookclub{
+       width: 1559px;
+       display: flex ;
+       align-content: center;
+       justify-content: space-between;
+       margin-bottom: 578px;
+   
+       .img{
+         width: 622px;
+         height: 463px;
+         background-color: blue;
+         background-image: url("../img/open-book-blog.jpg");
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+     
+       }
+       .info{
+         width: 898px;
+         font-size: 16px;
+         
+       }
+     }
+   }
