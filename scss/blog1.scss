@@ -1,0 +1,78 @@
+.feb{
+    margin-left: 228px;
+.hero{
+     
+ width: 1464px;
+ margin-top: 172px;
+ height: 463px;
+ background-color: rgba(88, 124, 131, 0.545);
+ background-image: (linear-gradient( rgba(88,124,131,1) 0%, rgba(88,124,131,0.35477941176470584) 100%)), url("../img/february-favorites-hero.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin-bottom: 105px ;
+        
+.callout{
+          
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ color: white;
+ h1{
+                
+ font-size: 32px;
+ margin-top: 137px;
+              
+ }
+ h2{                 
+ font-size: 26px;
+ }
+ p{
+ font-size: 16px;
+ }
+ }
+    }
+
+.books{
+    width: 1582px;
+    margin-bottom: 252px;
+    
+     .bookuno{
+        display: flex ;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 140px;
+         .b1{
+            width: 250px;
+            height: 380px;
+            background-color: blue;
+            background-image: url("../img/becoming.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        
+         }
+        .b2{
+            width: 250px;
+            height: 380px;
+            background-color: blue;
+            background-image: url("../img/finding\ me.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        
+            }
+.inf{
+    width: 1297px;
+     h1{
+font-size: 26px;
+     }
+     p{
+font-size: 16px;
+font-weight: bold;
+     }
+            }
+        }
+    }
+}

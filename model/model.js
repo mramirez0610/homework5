@@ -10,6 +10,7 @@ const booksRoute = `
 `;
 const blogRoute = `
 <h1>Blog</h1>
+
 `;
 const accountRoute = `
 <div class="acco">
@@ -38,9 +39,43 @@ const cartRoute = `
 <h1>Cart</h1>
 
 `;
+//blog1 is done
 const blog1Route = `
-<h1>Blog1</h1>
+<div class="feb">
+<div class="hero">
+<div class="callout">
+<h1>FEBRUARY FAVORITES</h1>
+<h2>In Honor of Black History Month</h2>
+<p>"Success is only meaningful and enjoyable if it feels like your own" - Michelle Obama</p>
+</div>
+</div>
 
+<div class="books">
+
+<div class="bookuno">
+<div class="b1"></div>
+<div class="inf">
+<h1>Becoming By Michelle Obama</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non arcu risus quis varius. Non consectetur a erat nam at lectus urna duis. Gravida arcu ac tortor dignissim. Diam phasellus vestibulum lorem sed risus ultricies. Tortor condimentum lacinia quis vel eros donec ac odio tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit duis. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Arcu risus quis varius quam quisque id diam vel quam. Amet cursus sit amet dictum sit.
+</p>
+<p>Ultricies integer quis auctor elit sed vulputate mi sit amet. Elementum integer enim neque volutpat ac. Id neque aliquam vestibulum morbi blandit cursus risus. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Elementum nibh tellus molestie nunc non. Eleifend mi in nulla posuere sollicitudin aliquam. Euismod lacinia at quis risus sed vulputate. Tellus molestie nunc non blandit massa enim nec dui nunc. Vulputate eu scelerisque felis imperdiet proin fermentum leo. Tellus mauris a diam maecenas sed. Aenean et tortor at risus viverra adipiscing at in. Ipsum suspendisse ultrices gravida dictum fusce. Arcu odio ut sem nulla.</p>
+</div>
+</div>
+
+<div class="bookuno">
+<div class="b2"></div>
+<div class="inf">
+<h1>Finding Me By Viola Davis</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non arcu risus quis varius. Non consectetur a erat nam at lectus urna duis. Gravida arcu ac tortor dignissim. Diam phasellus vestibulum lorem sed risus ultricies. Tortor condimentum lacinia quis vel eros donec ac odio tempor. Lorem ipsum dolor sit amet consectetur adipiscing elit duis. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Arcu risus quis varius quam quisque id diam vel quam. Amet cursus sit amet dictum sit.
+</p>
+<p>Ultricies integer quis auctor elit sed vulputate mi sit amet. Elementum integer enim neque volutpat ac. Id neque aliquam vestibulum morbi blandit cursus risus. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet. Elementum nibh tellus molestie nunc non. Eleifend mi in nulla posuere sollicitudin aliquam. Euismod lacinia at quis risus sed vulputate. Tellus molestie nunc non blandit massa enim nec dui nunc. Vulputate eu scelerisque felis imperdiet proin fermentum leo. Tellus mauris a diam maecenas sed. Aenean et tortor at risus viverra adipiscing at in. Ipsum suspendisse ultrices gravida dictum fusce. Arcu odio ut sem nulla.</p>
+</div>
+</div>
+
+</div>
+
+
+</div>
 `;
 
 //blog2 is done
