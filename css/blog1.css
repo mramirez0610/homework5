@@ -1,0 +1,82 @@
+.feb {
+  margin-left: 228px;
+}
+.feb .hero {
+  width: 1464px;
+  margin-top: 172px;
+  height: 463px;
+  background-color: rgba(88, 124, 131, 0.545);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(88, 124, 131)), to(rgba(88, 124, 131, 0.3547794118))), url("../img/february-favorites-hero.jpg");
+  background-image: linear-gradient(rgb(88, 124, 131) 0%, rgba(88, 124, 131, 0.3547794118) 100%), url("../img/february-favorites-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 105px;
+}
+.feb .hero .callout {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: white;
+}
+.feb .hero .callout h1 {
+  font-size: 32px;
+  margin-top: 137px;
+}
+.feb .hero .callout h2 {
+  font-size: 26px;
+}
+.feb .hero .callout p {
+  font-size: 16px;
+}
+.feb .books {
+  width: 1582px;
+  margin-bottom: 252px;
+}
+.feb .books .bookuno {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 140px;
+}
+.feb .books .bookuno .b1 {
+  width: 250px;
+  height: 380px;
+  background-color: blue;
+  background-image: url("../img/becoming.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.feb .books .bookuno .b2 {
+  width: 250px;
+  height: 380px;
+  background-color: blue;
+  background-image: url("../img/finding me.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.feb .books .bookuno .inf {
+  width: 1297px;
+}
+.feb .books .bookuno .inf h1 {
+  font-size: 26px;
+}
+.feb .books .bookuno .inf p {
+  font-size: 16px;
+  font-weight: bold;
+}

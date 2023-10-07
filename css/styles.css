@@ -201,6 +201,9 @@ footer .icon .icon3 {
   height: 300px;
   margin-bottom: 25px;
 }
+.acco .login-sign p {
+  font-size: 16px;
+}
 .acco .login-sign h2 {
   font-size: 26px;
   text-align: left;
@@ -210,6 +213,7 @@ footer .icon .icon3 {
   border-bottom: 1px solid #000000;
   width: 233px;
   margin-top: 50px;
+  font-size: 16px;
 }
 .acco .login-sign .log {
   display: -webkit-box;
@@ -222,6 +226,9 @@ footer .icon .icon3 {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.acco .login-sign .log p {
+  font-size: 16px;
+}
 .acco .login-sign .log input {
   width: 170px;
   height: 45px;
@@ -229,6 +236,7 @@ footer .icon .icon3 {
   background-color: #587C83;
   color: #fff;
   border: none;
+  font-size: 16px;
   cursor: pointer;
 }
 
@@ -437,4 +445,114 @@ footer .icon .icon3 {
 .feb .books .bookuno .inf p {
   font-size: 16px;
   font-weight: bold;
+}
+
+.cart {
+  margin-left: 135px;
+}
+.cart .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 105px;
+  margin-top: 152px;
+}
+.cart .item .bookc1 {
+  width: 205px;
+  height: 317px;
+  background-color: blue;
+  background-image: url("../img/misery.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 30px;
+}
+.cart .item .bookc2 {
+  width: 205px;
+  height: 317px;
+  background-color: blue;
+  background-image: url("../img/mlk-biography.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cart .item .infor .tex {
+  width: 166px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.cart .item .infor .tex .decor {
+  width: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.cart .line {
+  border-bottom: 1px solid #000;
+  margin-left: -135px;
+}
+.cart .line2 {
+  border-bottom: 1px solid #000;
+  margin-bottom: 778px;
+  margin-left: -135px;
+}
+.cart .ite2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 105px;
+  margin-bottom: 134px;
+}
+.cart .ite2 .bookc2 {
+  width: 205px;
+  height: 317px;
+  background-color: blue;
+  background-image: url("../img/mlk-biography.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 30px;
+}
+.cart .ite2 .infor .tex {
+  width: 166px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.cart .ite2 .infor .tex .decor {
+  width: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 10px;
+  text-decoration: underline;
+  cursor: pointer;
 }

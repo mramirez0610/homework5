@@ -1,0 +1,109 @@
+.cart {
+  margin-left: 135px;
+}
+.cart .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 105px;
+  margin-top: 152px;
+}
+.cart .item .bookc1 {
+  width: 205px;
+  height: 317px;
+  background-color: blue;
+  background-image: url("../img/misery.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 30px;
+}
+.cart .item .bookc2 {
+  width: 205px;
+  height: 317px;
+  background-color: blue;
+  background-image: url("../img/mlk-biography.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cart .item .infor .tex {
+  width: 166px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.cart .item .infor .tex .decor {
+  width: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.cart .line {
+  border-bottom: 1px solid #000;
+  margin-left: -135px;
+}
+.cart .line2 {
+  border-bottom: 1px solid #000;
+  margin-bottom: 778px;
+  margin-left: -135px;
+}
+.cart .ite2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 105px;
+  margin-bottom: 134px;
+}
+.cart .ite2 .bookc2 {
+  width: 205px;
+  height: 317px;
+  background-color: blue;
+  background-image: url("../img/mlk-biography.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 30px;
+}
+.cart .ite2 .infor .tex {
+  width: 166px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.cart .ite2 .infor .tex .decor {
+  width: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}

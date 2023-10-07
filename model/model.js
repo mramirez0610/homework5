@@ -12,6 +12,7 @@ const blogRoute = `
 <h1>Blog</h1>
 
 `;
+//account is finished
 const accountRoute = `
 <div class="acco">
   <div class="login-sign">
@@ -36,10 +37,55 @@ const accountRoute = `
 </div>
 `;
 const cartRoute = `
-<h1>Cart</h1>
+<div class="cart">
+<div class="item">
+<div class="bookc1"></div>
+<div class="infor">
+<h3>Misery By Stephen King</h3>
+<h3>$19.99</h3>
+<p>In Stock</p>
+<div>
+
+<div class="tex">
+<p>Qty:1</p>
+<div class="decor">
+<p>change</p> 
+<p>|</p>
+<p>delete</p>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="line"></div>
+<div class="ite2">
+<div class="bookc2"></div>
+<div class="infor">
+<h3>The Autobiography of Martin Luther King Jr. Edited By Clayborne Carson</h3>
+<h3>$19.99</h3>
+<p>In Stock</p>
+<div>
+
+<div class="tex">
+<p>Qty:1</p>
+<div class="decor">
+<p>change</p> 
+<p>|</p>
+<p>delete</p>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div class="line2"></div>
+
+</div>
 
 `;
-//blog1 is done
+//blog1 is finished
 const blog1Route = `
 <div class="feb">
 <div class="hero">
@@ -78,7 +124,7 @@ const blog1Route = `
 </div>
 `;
 
-//blog2 is done
+//blog2 is finishied
 const blog2Route = `
 <div class="bookc">
 <div class="hero">
@@ -105,7 +151,7 @@ const blog2Route = `
 </div>
 </div>
 `;
-//blog3 is done
+//blog3 is finishied
 const blog3Route = `
 <div class="bookc">
 <div class="hero2">

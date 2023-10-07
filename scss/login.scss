@@ -11,6 +11,9 @@
         height: 300px;
         margin-bottom: 25px;
         
+        p{
+            font-size: 16px;
+        }
         h2 {
             font-size: 26px;
             text-align: left;
@@ -20,12 +23,16 @@
             border-bottom: 1px solid #000000;
             width: 233px;
             margin-top: 50px;
+            font-size: 16px;
         }
         .log {
             display: flex;
             align-items: center;
             justify-content: center;
 
+            p{
+                font-size: 16px;
+            }
             input {
                 width: 170px;
                 height: 45px;
@@ -33,6 +40,7 @@
                 background-color: #587C83;
                 color: #fff;
                 border: none;
+                font-size: 16px;
                 cursor: pointer;
             }  
         }

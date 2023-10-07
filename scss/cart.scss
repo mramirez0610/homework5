@@ -1,0 +1,110 @@
+.cart{
+ margin-left: 135px;
+ 
+ 
+ .item{
+    
+    display: flex;
+    margin-bottom: 105px;
+    margin-top: 152px;
+    
+    .bookc1{
+        width: 205px;
+        height: 317px;
+        background-color: blue;
+        background-image: url("../img/misery.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-right: 30px;
+    }
+    .bookc2{
+        width: 205px;
+        height: 317px;
+        background-color: blue;
+        background-image: url("../img/mlk-biography.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .infor{
+        h3{
+
+        }
+        p{
+
+        }
+        .tex{
+            width: 166px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .decor{
+                width: 113px;
+                display: flex;
+                align-items: center;
+            justify-content: space-between;
+                margin-right: 10px;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            
+        }
+    }
+ }
+
+ .line{
+   
+    border-bottom: 1px solid #000;
+    margin-left: -135px;
+}
+
+    .line2{
+       
+        border-bottom: 1px solid #000;
+        margin-bottom: 778px;
+        margin-left: -135px;
+    }
+ .ite2{
+    
+    display: flex;
+    margin-top: 105px;
+   margin-bottom: 134px ;
+    
+   
+    .bookc2{
+        width: 205px;
+        height: 317px;
+        background-color: blue;
+        background-image: url("../img/mlk-biography.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-right: 30px;
+    }
+    .infor{
+        h3{
+
+        }
+        p{
+
+        }
+        .tex{
+            width: 166px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .decor{
+                width: 113px;
+                display: flex;
+                align-items: center;
+            justify-content: space-between;
+                margin-right: 10px;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            
+        }
+    }
+ }
+}
