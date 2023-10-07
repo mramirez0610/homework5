@@ -36,6 +36,7 @@ const accountRoute = `
   </div>
 </div>
 `;
+//cart is finished
 const cartRoute = `
 <div class="cart">
 <div class="item">
