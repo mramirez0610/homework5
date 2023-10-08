@@ -27,6 +27,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.cart .item .infor h3 {
+  font-size: 16px;
+}
+.cart .item .infor p {
+  font-size: 16px;
+}
 .cart .item .infor .tex {
   width: 166px;
   display: -webkit-box;
@@ -80,6 +86,12 @@
   background-size: cover;
   margin-right: 30px;
 }
+.cart .ite2 .infor h3 {
+  font-size: 16px;
+}
+.cart .ite2 .infor p {
+  font-size: 16px;
+}
 .cart .ite2 .infor .tex {
   width: 166px;
   display: -webkit-box;
@@ -106,4 +118,57 @@
   margin-right: 10px;
   text-decoration: underline;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .cart {
+    margin-left: 66px;
+    width: 100%;
+  }
+  .cart .ite2 p {
+    font-size: 12px;
+  }
+  .cart .ite2 h3 {
+    font-size: 12px;
+  }
+  .cart .ite2 .bookc2 {
+    width: 69px;
+    height: 106px;
+  }
+  .cart .item .bookc1 {
+    width: 69px;
+    height: 106px;
+  }
+  .cart .item p {
+    font-size: 12px;
+  }
+  .cart .item h3 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .cart {
+    width: 100%;
+    margin-left: 21px;
+  }
+  .cart .ite2 .infor p {
+    font-size: 6px;
+  }
+  .cart .ite2 .infor h3 {
+    font-size: 6px;
+  }
+  .cart .ite2 .bookc2 {
+    width: 48px;
+    height: 74px;
+  }
+  .cart .item .bookc1 {
+    width: 48px;
+    height: 74px;
+  }
+  .cart .item .infor p {
+    font-size: 6px;
+  }
+  .cart .item .infor h3 {
+    font-size: 6px;
+  }
 }
