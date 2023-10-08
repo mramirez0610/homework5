@@ -60,3 +60,42 @@ justify-content: space-evenly;
         }
     }
 }
+
+@media screen and  (max-width: 768px) {
+    footer{
+        .text{
+            font-size: 11px;
+            margin-left: 40px;
+        }
+        .links{
+            font-size: 11px;
+
+        }
+        .icon{
+           
+            width: 102px;
+
+            display: flex;
+align-items: center;
+justify-content: space-evenly;
+margin-right: 40px;
+ .icon1{
+    width: 25px;
+    height: 25px;
+
+ }
+ .icon2{
+    width: 25px;
+    height: 25px;
+
+ }
+ .icon3{
+    width: 25px;
+    height: 25px;
+
+ }
+
+        }
+
+    }
+}
