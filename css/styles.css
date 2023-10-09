@@ -141,6 +141,7 @@ footer .icon .icon3 {
   }
   footer .links {
     font-size: 11px;
+    width: 269px;
   }
   footer .icon {
     width: 102px;
@@ -160,6 +161,38 @@ footer .icon .icon3 {
   footer .icon .icon3 {
     width: 25px;
     height: 25px;
+  }
+}
+@media screen and (max-width: 390px) {
+  footer {
+    height: 57px;
+  }
+  footer .text {
+    font-size: 6px;
+    margin-left: 17px;
+  }
+  footer .links {
+    font-size: 6px;
+    width: 117px;
+  }
+  footer .icon {
+    width: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 17px;
+  }
+  footer .icon .icon1 {
+    width: 14px;
+    height: 14px;
+  }
+  footer .icon .icon2 {
+    width: 14px;
+    height: 14px;
+  }
+  footer .icon .icon3 {
+    width: 14px;
+    height: 14px;
   }
 }
 .acco {
@@ -268,6 +301,56 @@ footer .icon .icon3 {
   font-size: 16px;
 }
 
+@media screen and (max-width: 768px) {
+  .hero {
+    width: 513px;
+    height: 195px;
+  }
+  .hero .callout h1 {
+    font-size: 12px;
+  }
+  .hero .callout p {
+    font-size: 11px;
+  }
+  .bookclub {
+    width: 565px;
+  }
+  .bookclub .img {
+    width: 260px;
+    height: 205px;
+  }
+  .bookclub .info {
+    width: 261px;
+  }
+  .bookclub .info p {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .hero {
+    width: 307px;
+    height: 121px;
+  }
+  .hero .callout h1 {
+    font-size: 6px;
+  }
+  .hero .callout p {
+    font-size: 6px;
+  }
+  .bookclub {
+    width: 286px;
+  }
+  .bookclub .img {
+    width: 114px;
+    height: 95px;
+  }
+  .bookclub .info {
+    width: 158px;
+  }
+  .bookclub .info p {
+    font-size: 6px;
+  }
+}
 .bookc {
   margin-left: 228px;
 }
@@ -317,6 +400,56 @@ footer .icon .icon3 {
   font-size: 16px;
 }
 
+@media screen and (max-width: 768px) {
+  .hero {
+    width: 513px;
+    height: 195px;
+  }
+  .hero .callout h1 {
+    font-size: 12px;
+  }
+  .hero .callout p {
+    font-size: 11px;
+  }
+  .bookclub {
+    width: 565px;
+  }
+  .bookclub .img {
+    width: 260px;
+    height: 205px;
+  }
+  .bookclub .info {
+    width: 261px;
+  }
+  .bookclub .info p {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .hero {
+    width: 307px;
+    height: 121px;
+  }
+  .hero .callout h1 {
+    font-size: 6px;
+  }
+  .hero .callout p {
+    font-size: 6px;
+  }
+  .bookclub {
+    width: 286px;
+  }
+  .bookclub .img {
+    width: 114px;
+    height: 95px;
+  }
+  .bookclub .info {
+    width: 158px;
+  }
+  .bookclub .info p {
+    font-size: 6px;
+  }
+}
 .feb {
   margin-left: 228px;
 }
@@ -387,6 +520,76 @@ footer .icon .icon3 {
   font-weight: bold;
 }
 
+@media screen and (max-width: 768px) {
+  .hero {
+    width: 513px;
+    height: 195px;
+  }
+  .hero .callout h1 {
+    font-size: 12px;
+  }
+  .hero .callout h2 {
+    font-size: 11px;
+  }
+  .hero .callout p {
+    font-size: 8px;
+  }
+  .books {
+    width: 602px;
+  }
+  .books .bookuno .b1 {
+    width: 99px;
+    height: 150px;
+  }
+  .books .bookuno .b2 {
+    width: 99px;
+    height: 150px;
+  }
+  .books .bookuno .inf {
+    width: 473px;
+  }
+  .books .bookuno .inf h1 {
+    font-size: 12px;
+  }
+  .books .bookuno .inf p {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .hero {
+    width: 310px;
+    height: 119px;
+  }
+  .hero .callout h1 {
+    font-size: 6px;
+  }
+  .hero .callout h2 {
+    font-size: 6px;
+  }
+  .hero .callout p {
+    font-size: 6px;
+  }
+  .books {
+    width: 288px;
+  }
+  .books .bookuno .b1 {
+    width: 50px;
+    height: 76px;
+  }
+  .books .bookuno .b2 {
+    width: 50px;
+    height: 76px;
+  }
+  .books .bookuno .inf {
+    width: 221px;
+  }
+  .books .bookuno .inf h1 {
+    font-size: 6px;
+  }
+  .books .bookuno .inf p {
+    font-size: 6px;
+  }
+}
 .cart {
   margin-left: 135px;
 }
@@ -413,6 +616,12 @@ footer .icon .icon3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.cart .item .infor h3 {
+  font-size: 16px;
+}
+.cart .item .infor p {
+  font-size: 16px;
 }
 .cart .item .infor .tex {
   width: 166px;
@@ -453,6 +662,12 @@ footer .icon .icon3 {
   background-size: cover;
   margin-right: 30px;
 }
+.cart .ite2 .infor h3 {
+  font-size: 16px;
+}
+.cart .ite2 .infor p {
+  font-size: 16px;
+}
 .cart .ite2 .infor .tex {
   width: 166px;
   display: flex;
@@ -467,6 +682,92 @@ footer .icon .icon3 {
   margin-right: 10px;
   text-decoration: underline;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .cart {
+    margin-left: 66px;
+    width: 100%;
+  }
+  .cart .ite2 p {
+    font-size: 12px;
+  }
+  .cart .ite2 h3 {
+    font-size: 12px;
+  }
+  .cart .ite2 .bookc2 {
+    width: 69px;
+    height: 106px;
+  }
+  .cart .item .bookc1 {
+    width: 69px;
+    height: 106px;
+  }
+  .cart .item p {
+    font-size: 12px;
+  }
+  .cart .item h3 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .cart {
+    width: 100%;
+    margin-left: 21px;
+  }
+  .cart .ite2 .infor p {
+    font-size: 6px;
+  }
+  .cart .ite2 .infor h3 {
+    font-size: 6px;
+  }
+  .cart .ite2 .bookc2 {
+    width: 48px;
+    height: 74px;
+  }
+  .cart .item .bookc1 {
+    width: 48px;
+    height: 74px;
+  }
+  .cart .item .infor p {
+    font-size: 6px;
+  }
+  .cart .item .infor h3 {
+    font-size: 6px;
+  }
+}
+.home {
+  margin: 8% auto;
+  width: 90%;
+}
+.home .homeHero {
+  width: 85%;
+  height: 50vh;
+  background-color: red;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), url(../img/home-hero.jpg);
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+.home .featured {
+  margin: 10% auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home .featured .featureBook {
+  width: 20%;
+  text-align: center;
+}
+.home .featured .featureBook .cover {
+  width: 90%;
+  height: 45vh;
+  background-color: red;
+  margin: 0 auto;
+}
+.home .featured .featureBook p {
+  font-size: 0.75rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

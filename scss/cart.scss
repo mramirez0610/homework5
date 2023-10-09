@@ -29,9 +29,11 @@
     }
     .infor{
         h3{
+            font-size: 16px;
 
         }
         p{
+            font-size: 16px;
 
         }
         .tex{
@@ -84,9 +86,11 @@
     }
     .infor{
         h3{
+            font-size: 16px;
 
         }
         p{
+            font-size: 16px;
 
         }
         .tex{
@@ -107,4 +111,91 @@
         }
     }
  }
+}
+
+@media screen and  (max-width: 768px) {
+
+    .cart{
+        margin-left: 66px;
+        width: 100%;
+    .ite2{
+        
+    p{
+        font-size: 12px;
+
+    }
+    h3{
+        font-size: 12px;
+
+    }
+    
+.bookc2{
+    width: 69px;
+    height: 106px ;
+
+
+}
+    }
+    
+    .item{
+        
+.bookc1{
+    width: 69px;
+    height: 106px ;
+
+}
+p{
+    font-size: 12px;
+}
+h3{
+    font-size: 12px;
+}
+    }
+
+}
+}
+
+@media screen and  (max-width: 390px) {
+
+    .cart{
+        width: 100%;
+        margin-left: 21px;
+        
+    .ite2{
+        
+        .infor{
+            p{
+                font-size: 6px;
+            }
+            h3{
+                font-size: 6px;
+            }
+            }
+    
+.bookc2{
+    width: 48px;
+    height: 74px ;
+
+
+}
+    }
+    
+    .item{
+      
+.bookc1{
+    width: 48px;
+    height: 74px ;
+
+}
+.infor{
+p{
+    font-size: 6px;
+}
+h3{
+    font-size: 6px;
+}
+}
+    }
+
+}
 }

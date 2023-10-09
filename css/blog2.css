@@ -59,3 +59,54 @@
   width: 898px;
   font-size: 16px;
 }
+
+@media screen and (max-width: 768px) {
+  .hero {
+    width: 513px;
+    height: 195px;
+  }
+  .hero .callout h1 {
+    font-size: 12px;
+  }
+  .hero .callout p {
+    font-size: 11px;
+  }
+  .bookclub {
+    width: 565px;
+  }
+  .bookclub .img {
+    width: 260px;
+    height: 205px;
+  }
+  .bookclub .info {
+    width: 261px;
+  }
+  .bookclub .info p {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .hero {
+    width: 307px;
+    height: 121px;
+  }
+  .hero .callout h1 {
+    font-size: 6px;
+  }
+  .hero .callout p {
+    font-size: 6px;
+  }
+  .bookclub {
+    width: 286px;
+  }
+  .bookclub .img {
+    width: 114px;
+    height: 95px;
+  }
+  .bookclub .info {
+    width: 158px;
+  }
+  .bookclub .info p {
+    font-size: 6px;
+  }
+}
