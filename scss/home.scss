@@ -7,6 +7,7 @@
     height: 50vh;
     background-color: red;
     margin: 0 auto;
+    position: relative;
 
     background-image: linear-gradient(
         rgba(88, 124, 131, 0.6),
@@ -16,6 +17,22 @@
     background-repeat: none;
     background-position: center;
     background-size: cover;
+
+    .quote{
+      position: absolute;
+      right: 15%;
+      top: 45%;
+      text-transform: uppercase;
+      color: #fff;
+
+      h1{
+        margin-top: -15%;
+      }
+      
+      span{
+        margin-top: 5%;
+      }
+    }
   }
 
   .featured {
@@ -23,7 +40,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
     .featureBook {
       width: 20%;
       text-align: center;
@@ -31,12 +48,56 @@
       .cover {
         width: 90%;
         height: 45vh;
-        background-color: red;
         margin: 0 auto;
+
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
       }
 
-      p{
-        font-size: .75rem;
+      p {
+        font-size: 0.75rem;
+        margin-top: 12%;
+        margin-bottom: 15%;
+      }
+
+      h3 {
+        font-size: 1.3em;
+      }
+
+      button {
+        padding: 7% 16%;
+        background-color: #fff;
+        border: solid 1px #000;
+        text-transform: uppercase;
+      }
+    }
+
+    .one {
+      background-image: url(../img/to-kill-a-mockingbird.jpg);
+    }
+    .two {
+      background-image: url(../img/becoming.jpg);
+    }
+    .three {
+      background-image: url(../img/firestarter.jpg);
+    }
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .home {
+    .featured {
+      flex-direction: column;
+
+      .featureBook {
+        width: 80%;
+        margin-bottom: 10%;
+
+        .cover {
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
       }
     }
   }

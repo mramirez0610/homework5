@@ -9,6 +9,10 @@
 - blog 3 page
 
 # Marco Ramirez 
-
-
-
+- home
+- about
+- books
+- blog
+- nav
+- mvc setup
+- login setup

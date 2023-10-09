@@ -1,0 +1,69 @@
+.about {
+  width: 80%;
+  margin: 8% auto;
+
+  .aboutContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-bottom: 15%;
+
+    .photo {
+      width: 25%;
+      height: 55vh;
+      background-color: red;
+      border: 0.5px solid #000;
+      background-repeat: none;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .one {
+      background-image: url(../img/about-photo.jpg);
+    }
+    .two {
+      background-image: url(../img/about-photo-two.jpg);
+    }
+
+    .info {
+      text-align: center;
+      width: 75%;
+      padding-left: 5%;
+      margin-top: -2%;
+
+      h2 {
+        text-transform: uppercase;
+        margin-bottom: 5%;
+      }
+
+      h3 {
+        margin-bottom: 5%;
+      }
+
+      p {
+        text-align: left;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .about {
+    .aboutContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      .photo{
+        width: 100%;
+        height: 40vh;
+      }
+
+      .info {
+        text-align: center;
+        margin: 0;
+      }
+    }
+  }
+}

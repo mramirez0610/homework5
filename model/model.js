@@ -1,24 +1,334 @@
 //models
 const homeRoute = `
-<h1>Home</h1>
+<main class="home">
+<div class="homeHero">
+  <div class="quote">
+    <h1>A place is</h1>
+    <h1>Not a place</h1>
+    <span>until it has a book</span>
+  </div>
+</div>
+
+<div class="featured">
+  <div class="featureBook">
+    <div class="cover one"></div>
+    <p>
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua." Urna
+      nunc id cursus metus aliquam eleifend mi. Massa vitae tortor
+      condimentum lacinia quis vel eros.
+    </p>
+    <h3>$15.99</h3>
+    <button>Add To Cart</button>
+  </div>
+  <div class="featureBook">
+    <div class="cover two"></div>
+    <p>
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua." Urna
+      nunc id cursus metus aliquam eleifend mi. Massa vitae tortor
+      condimentum lacinia quis vel eros.
+    </p>
+    <h3>$15.99</h3>
+    <button>Add To Cart</button>
+  </div>
+  <div class="featureBook">
+    <div class="cover three"></div>
+    <p>
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua." Urna
+      nunc id cursus metus aliquam eleifend mi. Massa vitae tortor
+      condimentum lacinia quis vel eros.
+    </p>
+    <h3>$15.99</h3>
+    <button>Add To Cart</button>
+  </div>
+</div>
+</main>
 `;
 const aboutRoute = `
-<h1>About</h1>
+<main class="about">
+  <div class="aboutContainer">
+    <div class="photo one"></div>
+    <div class="info">
+      <h2>About the booknook</h2>
+      <h3>Founded in 2008</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi
+        nullam vehicula ipsum a arcu cursus vitae congue mauris. Turpis nunc
+        eget lorem dolor. Sed viverra tellus in hac habitasse. Id aliquet
+        risus feugiat in ante metus. Orci nulla pellentesque dignissim enim
+        sit amet. Maecenas pharetra convallis posuere morbi leo urna
+        molestie at elementum. Tortor at risus viverra adipiscing at in.
+        Odio ut enim blandit volutpat maecenas volutpat blandit aliquam
+        etiam. Justo donec enim diam vulputate ut. Aliquam ut porttitor leo
+        a diam. Sed id semper risus in hendrerit gravida rutrum quisque non.
+        Pellentesque habitant morbi tristique senectus et netus et
+        malesuada. In ornare quam viverra orci. Condimentum id venenatis a
+        condimentum vitae sapien pellentesque habitant morbi. Sed vulputate
+        mi sit amet mauris commodo quis imperdiet.
+      </p>
+    </div>
+  </div>
+  
+  <div class="aboutContainer">
+    <div class="photo two"></div>
+    <div class="info">
+      <h2>Find the perfect book</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi
+        nullam vehicula ipsum a arcu cursus vitae congue mauris. Turpis nunc
+        eget lorem dolor. Sed viverra tellus in hac habitasse. Id aliquet
+        risus feugiat in ante metus. Orci nulla pellentesque dignissim enim
+        sit amet. Maecenas pharetra convallis posuere morbi leo urna
+        molestie at elementum. Tortor at risus viverra adipiscing at in.
+        Odio ut enim blandit volutpat maecenas volutpat blandit aliquam
+        etiam. Justo donec enim diam vulputate ut. Aliquam ut porttitor leo
+        a diam. Sed id semper risus in hendrerit gravida rutrum quisque non.
+        Pellentesque habitant morbi tristique senectus et netus et
+        malesuada. In ornare quam viverra orci. Condimentum id venenatis a
+        condimentum vitae sapien pellentesque habitant morbi. Sed vulputate
+        mi sit amet mauris commodo quis imperdiet.
+      </p>
+    </div>
+  </div>
+</main>
 `;
 const booksRoute = `
-<h1>Books</h1>
+<main class="books">
+<section>
+  <h2>Booksets</h2>
+  <div class="row">
+    <div class="item">
+      <div class="photo one"></div>
+      <div class="info">
+        <div class="desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Netus et malesuada fames ac.
+        </div>
+        <h3>$99.99</h3>
+        <button>add to cart</button>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="photo two"></div>
+      <div class="info">
+        <div class="desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Netus et malesuada fames ac.
+        </div>
+        <h3>$100</h3>
+        <button>add to cart</button>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="photo three"></div>
+      <div class="info">
+        <div class="desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Netus et malesuada fames ac.
+        </div>
+        <h3>$100</h3>
+        <button>add to cart</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Black history month</h2>
+  <div class="row">
+    <div class="item">
+      <div class="photo four"></div>
+      <div class="info">
+        <div class="desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Netus et malesuada fames ac.
+        </div>
+        <h3>$27.99</h3>
+        <button>add to cart</button>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="photo five"></div>
+      <div class="info">
+        <div class="desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Netus et malesuada fames ac.
+        </div>
+        <h3>$19.99</h3>
+        <button>add to cart</button>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="photo six"></div>
+      <div class="info">
+        <div class="desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Netus et malesuada fames ac.
+        </div>
+        <h3>$17.99</h3>
+        <button>add to cart</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Horror books</h2>
+  <div class="row">
+    <div class="item">
+      <div class="photo seven"></div>
+      <div class="info">
+        <div class="desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Netus et malesuada fames ac.
+        </div>
+        <h3>$19.99</h3>
+        <button>add to cart</button>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="photo eight"></div>
+      <div class="info">
+        <div class="desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Netus et malesuada fames ac.
+        </div>
+        <h3>$15.99</h3>
+        <button>add to cart</button>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="photo nine"></div>
+      <div class="info">
+        <div class="desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Netus et malesuada fames ac.
+        </div>
+        <h3>$19.99</h3>
+        <button>add to cart</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Children's books</h2>
+  <div class="row">
+    <div class="item">
+      <div class="photo ten"></div>
+      <div class="info">
+        <div class="desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Netus et malesuada fames ac.
+        </div>
+        <h3>$19.99</h3>
+        <button>add to cart</button>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="photo eleven"></div>
+      <div class="info">
+        <div class="desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Netus et malesuada fames ac.
+        </div>
+        <h3>$15.99</h3>
+        <button>add to cart</button>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="photo twelve"></div>
+      <div class="info">
+        <div class="desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Netus et malesuada fames ac.
+        </div>
+        <h3>$7.99</h3>
+        <button>add to cart</button>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
 `;
 const blogRoute = `
-<h1>Blog</h1>
-
+<main class="blog">
+  <div class="blogPost">
+    <div class="books">
+      <div class="one cover"></div>
+      <div class="two cover"></div>
+    </div>
+    <div class="info large">
+      <h1>February favorites</h1>
+      <p>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua." Urna
+        nunc id cursus metus aliquam eleifend mi. Massa vitae tortor
+        condimentum lacinia quis vel eros.
+      </p>
+      <button><a id="blog1" href="#">Read more</a></button>
+    </div>
+  </div>
+  <div class="blogPost">
+    <div class="photo three"></div>
+    <div class="info">
+      <h1>all about book clubs</h1>
+      <p>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua." Urna
+        nunc id cursus metus aliquam eleifend mi. Massa vitae tortor
+        condimentum lacinia quis vel eros.
+      </p>
+      <button><a id="blog2" href="#">Read more</a></button>
+    </div>
+  </div>
+  <div class="blogPost">
+    <div class="photo four"></div>
+    <div class="info">
+      <h1>switch to e-reading?</h1>
+      <p>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua." Urna
+        nunc id cursus metus aliquam eleifend mi. Massa vitae tortor
+        condimentum lacinia quis vel eros.
+      </p>
+      <button><a id="blog3" href="#">Read more</a></button>
+    </div>
+  </div>
+</main>
 `;
 //account is finished
 const accountRoute = `
 <div class="acco">
   <div class="login-sign">
-<h2>Login Here!</h2>
-<input type="text" placeholder="Email Adress:" />
-<input type="password" placeholder="Password:" />
+<h2 id="banner">Login Here!</h2>
+<h3>email: admin | password: admin</h3>
+<input id="email" type="text" placeholder="Email Adress:" />
+<input id="password" type="password" placeholder="Password:" />
  <div class="log">
     <input type="button" value="LOGIN" id="logBtn" />
   </div>
@@ -124,7 +434,6 @@ const blog1Route = `
 
 </div>
 `;
-
 //blog2 is finishied
 const blog2Route = `
 <div class="bookc">
@@ -183,4 +492,3 @@ const blog3Route = `
 export function changePageContent(pageContentVarName) {
   $("#app").html(eval(pageContentVarName));
 }
-

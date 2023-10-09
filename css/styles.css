@@ -28,6 +28,16 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+header .mNav {
+  display: none;
+  background-image: url(../img/hamburger.png);
+  width: 8%;
+  height: 8vh;
+  margin-right: 3%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 header .logo {
   height: 100%;
   display: flex;
@@ -63,7 +73,7 @@ header .searchBar input {
   width: 100%;
   height: 50%;
   border: none;
-  background-color: #587c83;
+  background-color: rgba(88, 124, 131, 0.6);
 }
 header nav {
   margin-top: 2%;
@@ -77,6 +87,28 @@ header nav a {
   color: #000;
 }
 
+@media screen and (max-width: 1125px) {
+  header .logo {
+    width: 5%;
+  }
+  header nav {
+    display: none;
+  }
+  header nav a {
+    display: none;
+  }
+  header .mNav {
+    display: block;
+  }
+  header .searchBar {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 495px) {
+  header .searchBar {
+    display: none;
+  }
+}
 footer {
   display: flex;
   align-items: center;
@@ -250,6 +282,95 @@ footer .icon .icon3 {
   }
   .acco .login-sign {
     margin-bottom: 20px;
+  }
+}
+.blog {
+  width: 75%;
+  margin: 6% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15vh;
+}
+.blog .blogPost {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 45vh;
+  background-color: #587c83;
+}
+.blog .blogPost .books {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 55%;
+}
+.blog .blogPost .books .cover {
+  height: 35vh;
+  width: 25%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.blog .blogPost .books .one {
+  background-image: url(../img/becoming.jpg);
+}
+.blog .blogPost .books .two {
+  background-image: url(../img/finding\ me.jpg);
+}
+.blog .blogPost .three {
+  background-image: url(../img/open-book-blog.jpg);
+}
+.blog .blogPost .four {
+  background-image: url(../img/ereading-blog.jpg);
+}
+.blog .blogPost .photo {
+  width: 45%;
+  height: 100%;
+  background-color: red;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blog .blogPost .large {
+  width: 50%;
+}
+.blog .blogPost .info {
+  width: 40%;
+  text-align: center;
+  margin-right: 5%;
+  color: #fff;
+}
+.blog .blogPost .info h1 {
+  text-transform: uppercase;
+}
+.blog .blogPost .info button {
+  padding: 4% 8%;
+  background-color: transparent;
+  border: solid 1px #fff;
+  text-transform: uppercase;
+}
+.blog .blogPost .info button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 555px) {
+  .blog .blogPost {
+    flex-direction: column;
+    height: 100%;
+  }
+  .blog .blogPost .photo {
+    width: 100%;
+    height: 40vh;
+  }
+  .blog .blogPost .info {
+    width: 90%;
+    margin: 5% auto;
+  }
+  .blog .blogPost .books {
+    width: 90%;
   }
 }
 .bookc {
@@ -745,10 +866,24 @@ footer .icon .icon3 {
   height: 50vh;
   background-color: red;
   margin: 0 auto;
+  position: relative;
   background-image: linear-gradient(rgba(88, 124, 131, 0.6), rgba(88, 124, 131, 0.6)), url(../img/home-hero.jpg);
   background-repeat: none;
   background-position: center;
   background-size: cover;
+}
+.home .homeHero .quote {
+  position: absolute;
+  right: 15%;
+  top: 45%;
+  text-transform: uppercase;
+  color: #fff;
+}
+.home .homeHero .quote h1 {
+  margin-top: -15%;
+}
+.home .homeHero .quote span {
+  margin-top: 5%;
 }
 .home .featured {
   margin: 10% auto;
@@ -763,11 +898,198 @@ footer .icon .icon3 {
 .home .featured .featureBook .cover {
   width: 90%;
   height: 45vh;
-  background-color: red;
   margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .home .featured .featureBook p {
   font-size: 0.75rem;
+  margin-top: 12%;
+  margin-bottom: 15%;
+}
+.home .featured .featureBook h3 {
+  font-size: 1.3em;
+}
+.home .featured .featureBook button {
+  padding: 7% 16%;
+  background-color: #fff;
+  border: solid 1px #000;
+  text-transform: uppercase;
+}
+.home .featured .one {
+  background-image: url(../img/to-kill-a-mockingbird.jpg);
+}
+.home .featured .two {
+  background-image: url(../img/becoming.jpg);
+}
+.home .featured .three {
+  background-image: url(../img/firestarter.jpg);
+}
+
+@media screen and (max-width: 1125px) {
+  .home .featured {
+    flex-direction: column;
+  }
+  .home .featured .featureBook {
+    width: 80%;
+    margin-bottom: 10%;
+  }
+  .home .featured .featureBook .cover {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+.about {
+  width: 80%;
+  margin: 8% auto;
+}
+.about .aboutContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-bottom: 15%;
+}
+.about .aboutContainer .photo {
+  width: 25%;
+  height: 55vh;
+  background-color: red;
+  border: 0.5px solid #000;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+.about .aboutContainer .one {
+  background-image: url(../img/about-photo.jpg);
+}
+.about .aboutContainer .two {
+  background-image: url(../img/about-photo-two.jpg);
+}
+.about .aboutContainer .info {
+  text-align: center;
+  width: 75%;
+  padding-left: 5%;
+  margin-top: -2%;
+}
+.about .aboutContainer .info h2 {
+  text-transform: uppercase;
+  margin-bottom: 5%;
+}
+.about .aboutContainer .info h3 {
+  margin-bottom: 5%;
+}
+.about .aboutContainer .info p {
+  text-align: left;
+}
+
+@media screen and (max-width: 1125px) {
+  .about .aboutContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .about .aboutContainer .photo {
+    width: 100%;
+    height: 40vh;
+  }
+  .about .aboutContainer .info {
+    text-align: center;
+    margin: 0;
+  }
+}
+.books {
+  width: 95%;
+  margin: 0 auto;
+}
+.books section {
+  margin: 10% 0;
+}
+.books section h2 {
+  text-transform: uppercase;
+}
+.books section .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.books section .row .item {
+  height: 10%;
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.books section .row .item .photo {
+  width: 100%;
+  height: 30vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.books section .row .item .info {
+  padding-left: 5%;
+  width: 100%;
+}
+.books section .row .item .info .desc {
+  font-size: 0.9em;
+}
+.books section .row .item .info h3 {
+  font-size: 0.9em;
+}
+.books section .row .item .info button {
+  padding: 7% 16%;
+  background-color: #fff;
+  border: solid 1px #000;
+  text-transform: uppercase;
+}
+.books section .row .item .one {
+  background-image: url(../img/twilight-box-set.jpg);
+}
+.books section .row .item .two {
+  background-image: url(../img/hp-box-set.jpg);
+}
+.books section .row .item .three {
+  background-image: url(../img/got-box-set.jpg);
+}
+.books section .row .item .four {
+  background-image: url(../img/finding\ me.jpg);
+}
+.books section .row .item .five {
+  background-image: url(../img/mlk-biography.jpg);
+}
+.books section .row .item .six {
+  background-image: url(../img/elenor-roosevelt-biography.jpg);
+}
+.books section .row .item .seven {
+  background-image: url(../img/misery.jpg);
+}
+.books section .row .item .eight {
+  background-image: url(../img/frankenstein.jpg);
+}
+.books section .row .item .nine {
+  background-image: url(../img/phantoms.jpg);
+}
+.books section .row .item .ten {
+  background-image: url(../img/winnie\ the\ pooh.jpg);
+}
+.books section .row .item .eleven {
+  background-image: url(../img/cat\ and\ the\ hat.jpg);
+}
+.books section .row .item .twelve {
+  background-image: url(../img/fun\ facts\ about\ space.jpg);
+}
+
+@media screen and (max-width: 1125px) {
+  .row {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 960px) {
+  .books section .row .item {
+    width: 100%;
+    margin: 5% 0;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,106 @@
+.books {
+  width: 95%;
+  margin: 0 auto;
+
+  section {
+    margin: 10% 0;
+    h2 {
+      text-transform: uppercase;
+    }
+    .row {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .item {
+        height: 10%;
+        width: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .photo {
+          width: 100%;
+          height: 30vh;
+          background-size: contain;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+
+        .info {
+          padding-left: 5%;
+          width: 100%;
+
+          .desc {
+            font-size: 0.9em;
+          }
+          h3 {
+            font-size: 0.9em;
+          }
+          button {
+            padding: 7% 16%;
+            background-color: #fff;
+            border: solid 1px #000;
+            text-transform: uppercase;
+          }
+        }
+
+        .one {
+          background-image: url(../img/twilight-box-set.jpg);
+        }
+        .two {
+          background-image: url(../img/hp-box-set.jpg);
+        }
+        .three {
+          background-image: url(../img/got-box-set.jpg);
+        }
+        .four {
+          background-image: url(../img/finding\ me.jpg);
+        }
+        .five {
+          background-image: url(../img/mlk-biography.jpg);
+        }
+        .six {
+          background-image: url(../img/elenor-roosevelt-biography.jpg);
+        }
+        .seven {
+          background-image: url(../img/misery.jpg);
+        }
+        .eight {
+          background-image: url(../img/frankenstein.jpg);
+        }
+        .nine {
+          background-image: url(../img/phantoms.jpg);
+        }
+        .ten {
+          background-image: url(../img/winnie\ the\ pooh.jpg);
+        }
+        .eleven {
+          background-image: url(../img/cat\ and\ the\ hat.jpg);
+        }
+        .twelve {
+          background-image: url(../img/fun\ facts\ about\ space.jpg);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .books {
+    section {
+      .row {
+        .item {
+          width: 100%;
+          margin: 5% 0;
+        }
+      }
+    }
+  }
+}
