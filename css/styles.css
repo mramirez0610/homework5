@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body {
@@ -25,28 +24,16 @@ header {
   height: 10vh;
   border-bottom: 1px solid grey;
   padding-bottom: 1%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 header .logo {
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 15%;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  align-items: flex-end;
+  justify-content: flex-start;
   margin-left: 2%;
 }
 header .logo img {
@@ -61,15 +48,9 @@ header .searchBar {
   margin-top: 2%;
   height: 100%;
   width: 25%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-evenly;
   position: relative;
 }
 header .searchBar img {
@@ -87,12 +68,8 @@ header .searchBar input {
 header nav {
   margin-top: 2%;
   margin-right: 2%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  align-items: flex-end;
   gap: 5em;
 }
 header nav a {
@@ -101,17 +78,10 @@ header nav a {
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
   height: 92px;
   background-color: #587C83;
   color: #fff;
@@ -124,15 +94,9 @@ footer .text {
 }
 footer .links {
   width: 284px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-evenly;
 }
 footer .links a {
   color: #fff;
@@ -141,15 +105,9 @@ footer .links a {
 footer .icon {
   margin-right: 104px;
   width: 215px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-evenly;
 }
 footer .icon .icon1 {
   width: 44px;
@@ -186,15 +144,9 @@ footer .icon .icon3 {
   }
   footer .icon {
     width: 102px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-evenly;
     margin-right: 40px;
   }
   footer .icon .icon1 {
@@ -211,26 +163,15 @@ footer .icon .icon3 {
   }
 }
 .acco {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
   height: 600px;
   margin-bottom: 191px;
 }
 .acco .login-sign {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 233px;
   height: 300px;
   margin-bottom: 25px;
@@ -250,15 +191,9 @@ footer .icon .icon3 {
   font-size: 16px;
 }
 .acco .login-sign .log {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 .acco .login-sign .log p {
   font-size: 16px;
@@ -276,10 +211,7 @@ footer .icon .icon3 {
 
 @media screen and (max-width: 768px) {
   .acco {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin-top: 175px;
     margin-bottom: 324px;
   }
@@ -295,7 +227,6 @@ footer .icon .icon3 {
   margin-top: 172px;
   height: 463px;
   background-color: rgba(88, 124, 131, 0.545);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(88, 124, 131)), to(rgba(88, 124, 131, 0.3547794118))), url("../img/book-club-hero.jpg");
   background-image: linear-gradient(rgb(88, 124, 131) 0%, rgba(88, 124, 131, 0.3547794118) 100%), url("../img/book-club-hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -304,16 +235,9 @@ footer .icon .icon3 {
 }
 .bookc .hero .callout {
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: space-evenly;
   color: white;
 }
 .bookc .hero .callout h1 {
@@ -325,14 +249,9 @@ footer .icon .icon3 {
 }
 .bookc .bookclub {
   width: 1559px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-content: center;
+  justify-content: space-between;
   margin-bottom: 578px;
 }
 .bookc .bookclub .img {
@@ -357,7 +276,6 @@ footer .icon .icon3 {
   margin-top: 172px;
   height: 463px;
   background-color: rgba(88, 124, 131, 0.545);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(88, 124, 131)), to(rgba(88, 124, 131, 0.3547794118))), url("../img/eread-hero.jpg");
   background-image: linear-gradient(rgb(88, 124, 131) 0%, rgba(88, 124, 131, 0.3547794118) 100%), url("../img/eread-hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -366,16 +284,9 @@ footer .icon .icon3 {
 }
 .bookc .hero2 .callout {
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: space-evenly;
   color: white;
 }
 .bookc .hero2 .callout h1 {
@@ -387,14 +298,9 @@ footer .icon .icon3 {
 }
 .bookc .ereading {
   width: 1559px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-content: center;
+  justify-content: space-between;
   margin-bottom: 578px;
 }
 .bookc .ereading .img2 {
@@ -419,7 +325,6 @@ footer .icon .icon3 {
   margin-top: 172px;
   height: 463px;
   background-color: rgba(88, 124, 131, 0.545);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(88, 124, 131)), to(rgba(88, 124, 131, 0.3547794118))), url("../img/february-favorites-hero.jpg");
   background-image: linear-gradient(rgb(88, 124, 131) 0%, rgba(88, 124, 131, 0.3547794118) 100%), url("../img/february-favorites-hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -428,16 +333,9 @@ footer .icon .icon3 {
 }
 .feb .hero .callout {
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: space-evenly;
   color: white;
 }
 .feb .hero .callout h1 {
@@ -455,14 +353,9 @@ footer .icon .icon3 {
   margin-bottom: 252px;
 }
 .feb .books .bookuno {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-content: center;
+  justify-content: space-between;
   margin-bottom: 140px;
 }
 .feb .books .bookuno .b1 {
@@ -498,8 +391,6 @@ footer .icon .icon3 {
   margin-left: 135px;
 }
 .cart .item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-bottom: 105px;
   margin-top: 152px;
@@ -525,27 +416,15 @@ footer .icon .icon3 {
 }
 .cart .item .infor .tex {
   width: 166px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 .cart .item .infor .tex .decor {
   width: 113px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   margin-right: 10px;
   text-decoration: underline;
   cursor: pointer;
@@ -560,8 +439,6 @@ footer .icon .icon3 {
   margin-left: -135px;
 }
 .cart .ite2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 105px;
   margin-bottom: 134px;
@@ -578,28 +455,18 @@ footer .icon .icon3 {
 }
 .cart .ite2 .infor .tex {
   width: 166px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 .cart .ite2 .infor .tex .decor {
   width: 113px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   margin-right: 10px;
   text-decoration: underline;
   cursor: pointer;
 }
+
+/*# sourceMappingURL=styles.css.map */

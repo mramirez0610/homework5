@@ -1,0 +1,43 @@
+.home {
+  margin: 8% auto;
+  width: 90%;
+
+  .homeHero {
+    width: 85%;
+    height: 50vh;
+    background-color: red;
+    margin: 0 auto;
+
+    background-image: linear-gradient(
+        rgba(88, 124, 131, 0.6),
+        rgba(88, 124, 131, 0.6)
+      ),
+      url(../img/home-hero.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .featured {
+    margin: 10% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    .featureBook {
+      width: 20%;
+      text-align: center;
+
+      .cover {
+        width: 90%;
+        height: 45vh;
+        background-color: red;
+        margin: 0 auto;
+      }
+
+      p{
+        font-size: .75rem;
+      }
+    }
+  }
+}
