@@ -55,3 +55,70 @@
        }
      }
    }
+
+   @media screen and  (max-width: 768px) {
+
+    .hero{
+        width: 513px;
+        height: 195px;
+        .callout{
+            h1{
+                
+                font-size: 12px;
+                
+                             
+                }
+               
+                p{
+                font-size: 11px;
+                }
+        }
+    }
+
+    .bookclub{
+      width: 565px;
+      .img{
+        width: 260px;
+        height: 205px;
+      }
+      .info{
+        width: 261px;
+        p{
+          font-size: 11px;
+        }
+      }
+    }
+}
+@media screen and  (max-width: 390px) {
+
+  .hero{
+      width: 307px;
+      height: 121px;
+      .callout{
+          h1{
+              
+              font-size: 6px;
+              
+                           
+              }
+             
+              p{
+              font-size: 6px;
+              }
+      }
+  }
+
+  .bookclub{
+    width: 286px;
+    .img{
+      width: 114px;
+      height: 95px;
+    }
+    .info{
+      width: 158px;
+      p{
+        font-size: 6px;
+      }
+    }
+  }
+}

@@ -80,3 +80,74 @@
   font-size: 16px;
   font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+  .hero {
+    width: 513px;
+    height: 195px;
+  }
+  .hero .callout h1 {
+    font-size: 12px;
+  }
+  .hero .callout h2 {
+    font-size: 11px;
+  }
+  .hero .callout p {
+    font-size: 8px;
+  }
+  .books {
+    width: 602px;
+  }
+  .books .bookuno .b1 {
+    width: 99px;
+    height: 150px;
+  }
+  .books .bookuno .b2 {
+    width: 99px;
+    height: 150px;
+  }
+  .books .bookuno .inf {
+    width: 473px;
+  }
+  .books .bookuno .inf h1 {
+    font-size: 12px;
+  }
+  .books .bookuno .inf p {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .hero {
+    width: 310px;
+    height: 119px;
+  }
+  .hero .callout h1 {
+    font-size: 6px;
+  }
+  .hero .callout h2 {
+    font-size: 6px;
+  }
+  .hero .callout p {
+    font-size: 6px;
+  }
+  .books {
+    width: 288px;
+  }
+  .books .bookuno .b1 {
+    width: 50px;
+    height: 76px;
+  }
+  .books .bookuno .b2 {
+    width: 50px;
+    height: 76px;
+  }
+  .books .bookuno .inf {
+    width: 221px;
+  }
+  .books .bookuno .inf h1 {
+    font-size: 6px;
+  }
+  .books .bookuno .inf p {
+    font-size: 6px;
+  }
+}

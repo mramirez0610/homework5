@@ -76,3 +76,99 @@ font-weight: bold;
         }
     }
 }
+
+@media screen and  (max-width: 768px) {
+
+    .hero{
+        width: 513px;
+        height: 195px;
+        .callout{
+            h1{
+                
+                font-size: 12px;
+               
+                             
+                }
+                h2{                 
+                font-size: 11px;
+                }
+                p{
+                font-size: 8px;
+                }
+        }
+    }
+
+    .books{
+      width: 602px;
+      .bookuno{
+        .b1{
+width: 99px ;
+height:150px ;
+        }
+        .b2{
+            width: 99px ;
+            height:150px ;
+        }
+
+        .inf{
+            width: 473px;
+            h1{
+font-size: 12px;
+            }
+            p{
+                font-size: 11px;
+            }
+
+        
+        }
+      }
+    }
+}
+@media screen and  (max-width: 390px) {
+
+    .hero{
+        width: 310px;
+        height: 119px;
+        .callout{
+            h1{
+                
+                font-size: 6px;
+               
+                             
+                }
+                h2{                 
+                font-size: 6px;
+                }
+                p{
+                font-size: 6px;
+                }
+        }
+    }
+
+    .books{
+      width: 288px;
+      .bookuno{
+        .b1{
+width: 50px ;
+height:76px ;
+        }
+        .b2{
+            width: 50px ;
+height:76px ;
+        }
+
+        .inf{
+            width: 221px;
+            h1{
+font-size: 6px;
+            }
+            p{
+                font-size: 6px;
+            }
+
+        
+        }
+      }
+    }
+
+}
